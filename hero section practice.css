@@ -157,4 +157,12 @@ header button:hover {
     height: 40px;
     width: 125px;
   }
+  @keyframes faisal1 {
+    from {
+      height: 200px;
+    }
+    to {
+      height: auto;
+    }
+  }
 }

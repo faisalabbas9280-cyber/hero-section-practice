@@ -129,9 +129,17 @@ header button:hover {
     padding: 10px;
     width: 100%;
     height: auto;
-    animation-name: faisal1;
+    animation-name: faisal2;
     animation-duration: 2s;
     animation-iteration-count: 1;
+  }
+  @keyframes faisal2 {
+    from {
+      height: 170px;
+    }
+    to {
+      height: auto;
+    }
   }
   ul {
     gap: 30px;
@@ -159,13 +167,5 @@ header button:hover {
   #buttons button {
     height: 40px;
     width: 125px;
-  }
-  @keyframes faisal1 {
-    from {
-      height: 170px;
-    }
-    to {
-      height: auto;
-    }
   }
 }
